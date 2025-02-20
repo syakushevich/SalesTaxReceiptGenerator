@@ -52,7 +52,7 @@ RSpec.describe InputParser do
     end
 
     it "parses multiple lines from a file" do
-      results = InputParser.parse_file("test_input")
+      results = InputParser.parse_file(@filename)
       expect(results.size).to eq(3)
       expect(results[0][:product_name]).to eq("book")
       expect(results[1][:product_name]).to eq("music CD")

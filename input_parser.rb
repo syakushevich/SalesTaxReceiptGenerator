@@ -34,8 +34,7 @@ class InputParser
     }
   end
 
-  def self.parse_file(input_id)
-    filename = "#{input_id}.txt"
+  def self.parse_file(filename)
     raise "File not found: #{filename}" unless File.exist?(filename)
 
     parsed_items = []

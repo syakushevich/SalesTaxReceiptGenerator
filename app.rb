@@ -1,4 +1,3 @@
-#!/usr/bin/env ruby
 require_relative 'input_parser'
 require_relative 'tax_calculator'
 require_relative 'output_generator'
